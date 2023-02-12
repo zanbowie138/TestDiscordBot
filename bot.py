@@ -13,6 +13,8 @@ async def send_message(message, user_message, is_private):
 
 def run_discord_bot():
     # Super secure token uploaded to a public github repo
+    # I'm sure nothing bad will happen
+    # Don't use it
     TOKEN = 'MTA2MTEwNjQ2ODU3MDUyOTgwMg.GmUbF-.32vUwsoQ8-mDcT1eG6E3wyWQBHKcWBPTU90wq4'
     intents = discord.Intents.default()
     intents.message_content = True
